@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalAndroid">
+
         <activity
             android:name=".pantallaCargaActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
@@ -19,9 +20,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:label="@string/app_name" />
+
+        <activity
+            android:name=".pantallaRankingActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".pantallaAjustesActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/app_name" />
+
     </application>
 
 </manifest>
